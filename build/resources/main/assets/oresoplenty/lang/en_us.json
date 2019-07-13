@@ -1,0 +1,10 @@
+{
+  "block.oresoplenty.rubyore": "Ruby Ore",
+  "block.oresoplenty.rubyblock": "Ruby Block",
+  "item.oresoplenty.ruby": "Ruby",
+  "item.oresoplenty.rubysword": "Ruby Sword",
+  "item.oresoplenty.rubypickaxe": "Ruby Pickaxe",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.tutorial": "Ores o' Plenty"
+}
