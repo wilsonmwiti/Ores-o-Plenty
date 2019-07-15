@@ -3,10 +3,13 @@ package com.huihuiz.oresoplenty;
 import com.huihuiz.oresoplenty.blocks.ModBlocks;
 import com.huihuiz.oresoplenty.blocks.RubyBlock;
 import com.huihuiz.oresoplenty.blocks.RubyOre;
+import com.huihuiz.oresoplenty.enchantments.LifestealEnchantment;
 import com.huihuiz.oresoplenty.items.*;
 import com.huihuiz.oresoplenty.setup.*;
 import com.huihuiz.oresoplenty.world.OreGen;
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
@@ -92,6 +95,12 @@ public class OresOPlenty
             // register a new block here
             event.getRegistry().register(new RubyOre());
             event.getRegistry().register(new RubyBlock());
+        }
+
+        @SubscribeEvent
+        public static void onEnchantmentRegistry(final RegistryEvent.Register<Enchantment> event) {
+            // register a new block here
+            event.getRegistry().register(new LifestealEnchantment());
         }
     }
 }
