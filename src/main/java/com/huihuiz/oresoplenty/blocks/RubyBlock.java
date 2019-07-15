@@ -15,7 +15,7 @@ public class RubyBlock extends Block {
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)
                 .sound(SoundType.METAL));
-        setRegistryName("rubyblock");
+        setRegistryName("oresoplenty","rubyblock");
     }
 
 }

@@ -6,9 +6,9 @@ import net.minecraft.item.ShovelItem;
 
 public class RubyShovel extends ShovelItem {
     public RubyShovel(){
-        super(OresOPlenty.setup.tier_RUBY, 1.5F, -3F, new Item.Properties()
+        super(OresOPlenty.setup.tool_RUBY, 1.5F, -3F, new Item.Properties()
                 .maxStackSize(1)
                 .group(OresOPlenty.setup.itemGroup));
-        setRegistryName("rubyshovel");
+        setRegistryName("oresoplenty","rubyshovel");
     }
 }

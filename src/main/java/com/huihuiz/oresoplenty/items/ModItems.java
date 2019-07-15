@@ -16,4 +16,6 @@ public class ModItems {
     public static RubyShovel RUBYSHOVEL;
     @ObjectHolder("oresoplenty:rubyhoe")
     public static RubyHoe RUBYHOE;
+    @ObjectHolder("oresoplenty:rubyhelmet")
+    public static RubyHelmet RUBYHELMET;
 }

@@ -7,9 +7,9 @@ import net.minecraft.item.Item;
 public class RubyAxe extends AxeItem {
 
     public RubyAxe() {
-        super(OresOPlenty.setup.tier_RUBY, 5.5F, -3F, new Item.Properties()
+        super(OresOPlenty.setup.tool_RUBY, 5.5F, -3F, new Item.Properties()
                 .maxStackSize(1)
                 .group(OresOPlenty.setup.itemGroup));
-        setRegistryName("rubyaxe");
+        setRegistryName("oresoplenty","rubyaxe");
     }
 }

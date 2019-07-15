@@ -7,15 +7,12 @@ import com.huihuiz.oresoplenty.items.*;
 import com.huihuiz.oresoplenty.setup.*;
 import com.huihuiz.oresoplenty.world.OreGen;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -76,14 +73,18 @@ public class OresOPlenty
         @SubscribeEvent
         public static void onItemRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(setup.itemGroup);
-            event.getRegistry().register(new BlockItem(ModBlocks.RUBYORE, properties).setRegistryName("rubyore"));
-            event.getRegistry().register(new BlockItem(ModBlocks.RUBYBLOCK, properties).setRegistryName("rubyblock"));
+            event.getRegistry().register(new BlockItem(ModBlocks.RUBYORE, properties).setRegistryName("oresoplenty","rubyore"));
+            event.getRegistry().register(new BlockItem(ModBlocks.RUBYBLOCK, properties).setRegistryName("oresoplenty", "rubyblock"));
             event.getRegistry().register(new Ruby());
             event.getRegistry().register(new RubySword());
             event.getRegistry().register(new RubyPickaxe());
             event.getRegistry().register(new RubyAxe());
             event.getRegistry().register(new RubyShovel());
             event.getRegistry().register(new RubyHoe());
+            event.getRegistry().register(new RubyHelmet());
+            event.getRegistry().register(new RubyChestplate());
+            event.getRegistry().register(new RubyLeggings());
+            event.getRegistry().register(new RubyBoots());
         }
 
         @SubscribeEvent

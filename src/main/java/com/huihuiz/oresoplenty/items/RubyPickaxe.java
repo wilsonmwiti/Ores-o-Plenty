@@ -7,9 +7,9 @@ import net.minecraft.item.PickaxeItem;
 public class RubyPickaxe extends PickaxeItem {
 
     public RubyPickaxe(){
-        super(OresOPlenty.setup.tier_RUBY, 1, -2.8F, new Item.Properties()
+        super(OresOPlenty.setup.tool_RUBY, 1, -2.8F, new Item.Properties()
                 .maxStackSize(1)
                 .group(OresOPlenty.setup.itemGroup));
-        setRegistryName("rubypickaxe");
+        setRegistryName("oresoplenty","rubypickaxe");
     }
 }

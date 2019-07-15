@@ -9,6 +9,6 @@ public class Ruby extends Item {
         super(new Item.Properties()
                 .maxStackSize(64)
                 .group(OresOPlenty.setup.itemGroup));
-        setRegistryName("ruby");
+        setRegistryName("oresoplenty","ruby");
     }
 }

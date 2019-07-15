@@ -15,7 +15,7 @@ public class RubyOre extends Block {
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)
                 .sound(SoundType.STONE));
-        setRegistryName("rubyore");
+        setRegistryName("oresoplenty","rubyore");
     }
 
     @Override

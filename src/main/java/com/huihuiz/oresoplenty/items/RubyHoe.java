@@ -6,9 +6,9 @@ import net.minecraft.item.Item;
 
 public class RubyHoe extends HoeItem {
     public RubyHoe() {
-        super(OresOPlenty.setup.tier_RUBY, -0.5F, new Item.Properties()
+        super(OresOPlenty.setup.tool_RUBY, -0.5F, new Item.Properties()
                 .maxStackSize(1)
                 .group(OresOPlenty.setup.itemGroup));
-        setRegistryName("rubyhoe");
+        setRegistryName("oresoplenty","rubyhoe");
     }
 }
