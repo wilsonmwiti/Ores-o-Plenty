@@ -10,4 +10,10 @@ public class ModItems {
     public static RubySword RUBYSWORD;
     @ObjectHolder("oresoplenty:rubypickaxe")
     public static RubyPickaxe RUBYPICKAXE;
+    @ObjectHolder("oresoplenty:rubyaxe")
+    public static RubyAxe RUBYAXE;
+    @ObjectHolder("oresoplenty:rubyshovel")
+    public static RubyShovel RUBYSHOVEL;
+    @ObjectHolder("oresoplenty:rubyhoe")
+    public static RubyHoe RUBYHOE;
 }

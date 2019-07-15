@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "oresoplenty:item/rubyaxe"
+    "layer0": "oresoplenty:item/rubyshovel"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "oresoplenty:item/rubypickaxe"
+    "layer0": "oresoplenty:item/rubyaxe"
   }
 }

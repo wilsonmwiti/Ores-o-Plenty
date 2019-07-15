@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "SX",
+    "S "
+  ],
+  "key": {
+    "X": {
+      "item": "oresoplenty:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oresoplenty:rubyaxe"
+  }
+}

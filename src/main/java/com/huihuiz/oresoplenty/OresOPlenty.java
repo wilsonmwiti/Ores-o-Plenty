@@ -3,11 +3,9 @@ package com.huihuiz.oresoplenty;
 import com.huihuiz.oresoplenty.blocks.ModBlocks;
 import com.huihuiz.oresoplenty.blocks.RubyBlock;
 import com.huihuiz.oresoplenty.blocks.RubyOre;
-import com.huihuiz.oresoplenty.items.ModItems;
-import com.huihuiz.oresoplenty.items.Ruby;
-import com.huihuiz.oresoplenty.items.RubyPickaxe;
-import com.huihuiz.oresoplenty.items.RubySword;
+import com.huihuiz.oresoplenty.items.*;
 import com.huihuiz.oresoplenty.setup.*;
+import com.huihuiz.oresoplenty.world.OreGen;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -56,6 +54,7 @@ public class OresOPlenty
         // some preinit code
         proxy.init();
         setup.init();
+        OreGen.setupOreGeneration();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -82,6 +81,9 @@ public class OresOPlenty
             event.getRegistry().register(new Ruby());
             event.getRegistry().register(new RubySword());
             event.getRegistry().register(new RubyPickaxe());
+            event.getRegistry().register(new RubyAxe());
+            event.getRegistry().register(new RubyShovel());
+            event.getRegistry().register(new RubyHoe());
         }
 
         @SubscribeEvent

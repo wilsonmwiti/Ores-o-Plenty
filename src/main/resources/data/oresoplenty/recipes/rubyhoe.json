@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
+    "XX",
     "S",
     "S"
   ],
@@ -14,6 +14,6 @@
     }
   },
   "result": {
-    "item": "oresoplenty:rubyshovel"
+    "item": "oresoplenty:rubyhoe"
   }
 }
