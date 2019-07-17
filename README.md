@@ -1,33 +1,20 @@
 # Ores-o-Plenty
+A for fun mod project used to learn the new Minecraft 1.14 forge.
 
-✓New ore
+Goals (in no particular order):
 
+✓New ore (ruby)
 
-  ✓Tool set of said ore
-  
-  
-  ✓Ore generation
-  
-  
-✓New enchantment
+✓Tool set of said ore
 
+✓Ore generation
 
-  ✓Lifesteal
-  
-  
--New dimension
+✓New enchantment (lifesteal)
 
+-New dimension (need ideas)
 
-  -Need ideas, ruby dimension for now
-  
-  
--New effect/potion
+-New effect/potion (need ideas)
 
+-New entity (need ideas)
 
-  -Need ideas
-  
-  
--New entity
-
-
-  -Need ideas
+-New weapon/special item (need ideas)
