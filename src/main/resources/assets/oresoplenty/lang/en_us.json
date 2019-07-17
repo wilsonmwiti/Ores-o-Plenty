@@ -1,6 +1,7 @@
 {
   "block.oresoplenty.rubyore": "Ruby Ore",
   "block.oresoplenty.rubyblock": "Ruby Block",
+
   "item.oresoplenty.ruby": "Ruby",
   "item.oresoplenty.rubysword": "Ruby Sword",
   "item.oresoplenty.rubypickaxe": "Ruby Pickaxe",
@@ -8,8 +9,9 @@
   "item.oresoplenty.rubyshovel": "Ruby Shovel",
   "item.oresoplenty.rubyhoe": "Ruby Hoe",
   "item.oresoplenty.rubyhelmet": "Ruby Helmet",
+
   "enchantment.oresoplenty.lifesteal": "Lifesteal",
 
   "_comment": "Creative Tabs",
-  "itemGroup.tutorial": "Ores o' Plenty"
+  "itemGroup.oresoplenty": "Ores o' Plenty"
 }

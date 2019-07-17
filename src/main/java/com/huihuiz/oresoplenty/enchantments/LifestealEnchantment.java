@@ -4,7 +4,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -18,9 +17,6 @@ public class LifestealEnchantment extends Enchantment {
         setRegistryName("oresoplenty","lifesteal");
     }
 
-    /**
-     * Returns the minimal value of enchantability needed on the enchantment level passed.
-     */
     public int getMinEnchantability(int enchantmentLevel) {
         return 1 + (enchantmentLevel - 1) * 11;
     }
@@ -30,7 +26,7 @@ public class LifestealEnchantment extends Enchantment {
     }
 
     public int getMaxLevel() {
-        return 4;
+        return 5;
     }
 
     public boolean canApplyTogether(Enchantment enchantment) {
@@ -41,13 +37,9 @@ public class LifestealEnchantment extends Enchantment {
         return itemStack.getItem() instanceof AxeItem ? true : super.canApply(itemStack);
     }
 
-    public float calcDamageByCreature(int level, CreatureAttribute creatureType) {
-        return 1F+0.5F*level;
-    }
-
     public void onEntityDamaged(LivingEntity entity, Entity target, int level) {
         ClientPlayerEntity player = Minecraft.getInstance().player;
-        player.setHealth(player.getHealth()+(1F+0.5F*level));
+        player.setHealth(player.getHealth()+(0.5F*(level+1)));
 
     }
 }

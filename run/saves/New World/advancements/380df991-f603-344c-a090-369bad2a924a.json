@@ -1,7 +1,19 @@
 {
-  "minecraft:story/enchant_item": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "enchanted_item": "2019-07-15 01:39:05 -0400"
+      "has_string": "2019-07-16 23:40:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2019-07-16 23:40:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2019-07-16 23:40:57 -0400"
     },
     "done": true
   },
@@ -11,15 +23,46 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2019-07-15 01:40:29 -0400"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:zombie": "2019-07-15 01:40:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_string": "2019-07-16 23:40:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2019-07-16 23:40:56 -0400",
+      "minecraft:zombie": "2019-07-15 01:40:29 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2019-07-15 01:39:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2019-07-16 23:40:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2019-07-16 23:40:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-07-15 01:40:29 -0400"
     },
     "done": true
   },
@@ -29,11 +72,11 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
+  "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
-      "minecraft:zombie": "2019-07-15 01:40:29 -0400"
+      "has_string": "2019-07-16 23:40:57 -0400"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
